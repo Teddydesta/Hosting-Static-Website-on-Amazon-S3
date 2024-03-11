@@ -17,13 +17,13 @@ This tutorial guides you through hosting a static website on S3. Ideal for scena
 websites where site updates are infrequent. Key steps:
 
 - Create S3 Bucket
-- 
+  
 - Configure Bucket for Website Hosting
-- 
+  
 - Enable Public Access
-- 
+  
 - Upload HTML Files
-- 
+  
 - Test and Validate Your Website
 
 **Prerequisites**
@@ -69,8 +69,11 @@ bucket.
 ![image](https://github.com/Teddydesta/S3-bucket/assets/86881100/09e1c11c-71d9-401a-a244-c5a219a0e020)
 
 ### Step 2: Enable Static Website Hosting
-Scroll down, uncheck "Block all public access" to lift Amazon S3's default public access restriction for the bucket. Confirm your choice by clicking the checkbox below, acknowledging the current settings and enabling public access to the bucket.
-Keep the Hosting type as the default (Host a static website), and input the precise name for the Index document that will function as your static webpage file. Similarly, enter the exact name for the Error document if you wish to create a custom web page for 4XX class errors. Note that this section is case-sensitive, so ensure the names you provide are an exact match.
+Scroll down, uncheck "Block all public access" to lift Amazon S3's default public access restriction for the bucket. Confirm your choice by clicking the checkbox below, acknowledging the current settings and 
+
+enabling public access to the bucket. Keep the Hosting type as the default (Host a static website), and input the precise name for the Index document that will function as your static webpage file. Similarly, 
+
+enter the exact name for the Error document if you wish to create a custom web page for 4XX class errors. Note that this section is case-sensitive, so ensure the names you provide are an exact match.
 
 ![image](https://github.com/Teddydesta/S3-bucket/assets/86881100/dc972754-af12-4ee0-98ad-6454155812c4)
 
